@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  font-family: robotoregular;
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../img/morro.png');
+  background-size: auto 60%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #81cee8;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.banner {
+  margin-top: 12%;
+  padding: 0 20px;
+  color: #efefef;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.banner h1 {
+  font-family: bankolibold;
+  font-size: 8.5em;
+  color: #cb1515;
+}
+
+.banner h2 {
+  font-size: 3em;
+  letter-spacing: .06em;
+  line-height: 1.1;
+}
+
+.banner h3 {
+  font-size: 2.5em;
+}
