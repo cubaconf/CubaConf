@@ -63,3 +63,9 @@
     left:120%;
   }
 }
+
+@media (max-width: 640px) {
+  .cloud {
+    z-index: -1;
+  }
+}
