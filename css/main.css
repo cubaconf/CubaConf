@@ -58,10 +58,7 @@ html, body {
   }
 }
 
-@media screen and (max-width: 440px) and (min-width: 361px) {
-  .main {
-    background-position: 75px 100%;
-  }
+@media screen and (max-width: 729px) and (min-width: 361px) {
   .banner h1 {
     font-size: 4.5em;
   }
@@ -70,6 +67,12 @@ html, body {
   }
   .banner h3 {
     font-size: 2.0em;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 361px) {
+  .main {
+    background-position: 75px 100%;
   }
 }
 
@@ -77,28 +80,10 @@ html, body {
   .main {
     background-position: 100% 100%;
   }
-  .banner h1 {
-    font-size: 4.5em;
-  }
-  .banner h2 {
-    font-size: 2.0em;
-  }
-  .banner h3 {
-    font-size: 2.0em;
-  }
 }
 
 @media screen and (max-width: 729px) and (min-width: 642px) {
   .main {
     background-position: 100% 100%;
-  }
-  .banner h1 {
-    font-size: 4.5em;
-  }
-  .banner h2 {
-    font-size: 2.0em;
-  }
-  .banner h3 {
-    font-size: 2.0em;
   }
 }
