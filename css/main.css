@@ -15,11 +15,10 @@ html, body {
   background-position: bottom right;
   background-color: #81cee8;
   overflow: hidden;
-  z-index: -1;
 }
 
 .banner {
-  margin-top: 12%;
+  margin-top: 10%;
   padding: 0 20px;
   color: #efefef;
   text-align: center;
@@ -39,5 +38,24 @@ html, body {
 }
 
 .banner h3 {
-  font-size: 2.5em;
+  font-size: 1.2em;
+}
+
+.content {
+  margin-top: 1%;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-size: 2em;
+}
+
+.contact {
+  font-size: 0.5em;
+}
+
+.cfp a, .cfp a:hover {
+  color: #cb1515;
+}
+
+a, a:hover {
+  color: #efefef;
 }
