@@ -59,3 +59,49 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+
+@media screen and (max-width: 360px) {
+  .main {
+    background-position: 50px 100%;
+  }
+  .banner h1 {
+    font-size: 4.5em;
+  }
+  .banner h2 {
+    font-size: 2.0em;
+  }
+  .banner h3 {
+    font-size: 2.0em;
+  }
+}
+
+@media screen and (max-width: 729px) and (min-width: 361px) {
+  .banner h1 {
+    font-size: 4.5em;
+  }
+  .banner h2 {
+    font-size: 2.0em;
+  }
+  .banner h3 {
+    font-size: 2.0em;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 361px) {
+  .main {
+    background-position: 75px 100%;
+  }
+}
+
+@media screen and (max-width: 639px) and (min-width: 441px) {
+  .main {
+    background-position: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 729px) and (min-width: 642px) {
+  .main {
+    background-position: 100% 100%;
+  }
+}

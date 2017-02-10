@@ -56,3 +56,9 @@
     margin-left: -50px;
   }
 }
+
+@media (max-width: 640px) {
+  .ocean {
+    width: 110%;
+  }
+}
