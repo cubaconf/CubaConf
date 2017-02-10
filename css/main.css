@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   font-family: robotoregular;
+  font-size: 14px;
 }
 
 .main {
@@ -60,48 +61,38 @@ footer {
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 641px) {
+  .main {
+    background-size: auto 50%;
+  }
+}
+
+@media screen and (max-width: 642px) and (min-width: 531px) {
+  body {
+    font-size: 12px;
+  }
+
+  .main {
+    background-size: auto 40%;
+  }
+}
+
+@media screen and (max-width: 530px) and (min-width: 361px) {
+  body {
+    font-size: 10px;
+  }
+
+  .main {
+    background-size: auto 35%;
+  }
+}
 
 @media screen and (max-width: 360px) {
-  .main {
-    background-position: 50px 100%;
+  body {
+    font-size: 8px;
   }
-  .banner h1 {
-    font-size: 4.5em;
-  }
-  .banner h2 {
-    font-size: 2.0em;
-  }
-  .banner h3 {
-    font-size: 2.0em;
-  }
-}
 
-@media screen and (max-width: 729px) and (min-width: 361px) {
-  .banner h1 {
-    font-size: 4.5em;
-  }
-  .banner h2 {
-    font-size: 2.0em;
-  }
-  .banner h3 {
-    font-size: 2.0em;
-  }
-}
-
-@media screen and (max-width: 440px) and (min-width: 361px) {
   .main {
-    background-position: 75px 100%;
-  }
-}
-
-@media screen and (max-width: 639px) and (min-width: 441px) {
-  .main {
-    background-position: 100% 100%;
-  }
-}
-
-@media screen and (max-width: 729px) and (min-width: 642px) {
-  .main {
-    background-position: 100% 100%;
+    background-size: auto 30%;
   }
 }
