@@ -51,6 +51,12 @@ html, body {
   text-shadow: inherit;
 }
 
+.languages {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
 footer {
   position: absolute;
   bottom: 8px;

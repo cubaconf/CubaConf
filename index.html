@@ -38,12 +38,17 @@
       </div>
 
       <div class="banner">
-        <h1>CubaConf</h1>
-        <h2>La Conferencia Cubana<br />de <strong>Tecnologías Libres</strong></h2>
-        <h3>La Habana, 25-27 de abril de 2017</h3>
+        <h1 data-i18n="conference.name"></h1>
+        <h2 data-i18n="[html]conference.title"></h2>
+        <h3><span data-i18n="conference.city"></span>, <span data-i18n="conference.date"></span></h3>
         <div>
-          <a class="btn btn-warning btn-lg" href="https://www.papercall.io/cubaconf2017">Enviar una propuesta</a>
+          <a class="btn btn-warning btn-lg" href="https://www.papercall.io/cubaconf2017" data-i18n="cfp.send"></a>
         </div>
+      </div>
+
+      <div class="languages btn-group btn-group-sm" role="group" aria-label="...">
+        <a class="btn btn-info" href="./?lng=es">es</a>
+        <a class="btn btn-info" href="./?lng=en">en</a>
       </div>
     </section>
 
@@ -58,6 +63,12 @@
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="vendor/i18next/i18next.min.js"></script>
+    <script src="vendor/i18next/jquery-i18next.min.js"></script>
+    <script src="vendor/i18next/i18nextXHRBackend.min.js"></script>
+    <script src="vendor/i18next/i18nextBrowserLanguageDetector.min.js"></script>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

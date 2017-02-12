@@ -1,0 +1,11 @@
+{
+  "conference": {
+    "name": "CubaConf",
+    "title": "<strong>Free Technologies</strong><br />Cuban Conference",
+    "city": "Havana",
+    "date": "April 25-27, 2017"
+  },
+  "cfp": {
+    "send": "Speak at CubaConf!"
+  }
+}
