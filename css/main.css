@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   font-family: robotoregular;
   font-size: 14px;
+  overflow: hidden;
 }
 
 .main {
