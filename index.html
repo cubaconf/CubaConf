@@ -42,9 +42,10 @@
         <h1 data-i18n="conference.name"></h1>
         <h2 data-i18n="[html]conference.title"></h2>
         <h3><span data-i18n="conference.city"></span>, <span data-i18n="conference.date"></span></h3>
-        <div>
-          <a class="btn btn-warning btn-lg" href="https://www.papercall.io/cubaconf2017" data-i18n="cfp.send"></a>
-        </div>
+        <p>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#aboutModal" data-i18n="about.title"></button>
+          <a target="_blank" class="btn btn-warning btn-lg" href="https://www.papercall.io/cubaconf2017" data-i18n="cfp.send"></a>
+        </p>
       </div>
 
       <div class="languages btn-group btn-group-sm" role="group" aria-label="...">
@@ -61,6 +62,18 @@
         <a class="btn btn-default" href="https://twitter.com/cubaconference">twitter</a>
       </div>
     </footer>
+
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalTitle">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="aboutModalTitle" data-i18n="about.title"></h4>
+          </div>
+          <div class="modal-body" data-i18n="[html]about.content"></div>
+        </div>
+      </div>
+    </div>
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
