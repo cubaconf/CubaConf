@@ -52,6 +52,18 @@ html, body {
   text-shadow: inherit;
 }
 
+.banner p.buttons {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.banner p.buttons > * {
+  margin: 5px;
+}
+
 .languages {
   position: absolute;
   top: 8px;
