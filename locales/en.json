@@ -5,6 +5,9 @@
     "city": "Havana",
     "date": "April 25-27, 2017"
   },
+  "registration": {
+    "register": "Registration"
+  },
   "cfp": {
     "send": "Speak at CubaConf!"
   },

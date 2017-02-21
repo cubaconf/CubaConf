@@ -20,60 +20,47 @@
 
   <body>
 
-    <section class="main">
-      <div class="sky">
-        <div class="cloud cloud-1"></div>
-        <div class="cloud cloud-2"></div>
-        <div class="cloud cloud-3"></div>
-        <div class="cloud cloud-4"></div>
-        <div class="cloud cloud-5"></div>
-        <div class="cloud cloud-6"></div>
-      </div>
+    <div class="sky">
+    </div>
 
-      <div class="sea">
-        <div class="ocean">
-          <div class="wave wave-1"></div>
-          <div class="wave wave-2"></div>
-          <div class="wave wave-3"></div>
+    <div class="sea">
+      <div class="wave"></div>
+    </div>
+
+    <div class="languages btn-group btn-group-sm" role="group" aria-label="...">
+      <a class="btn btn-info" href="./?lng=es">es</a>
+      <a class="btn btn-info" href="./?lng=en">en</a>
+    </div>
+
+    <section id="main" class="main">
+      <h1 data-i18n="conference.name"></h1>
+      <h3 data-i18n="[html]conference.title"></h3>
+      <h4><span data-i18n="conference.city"></span>, <span data-i18n="conference.date"></span></h4>
+      <p class="buttons">
+        <a href="#about" class="btn btn-info btn-lg" data-i18n="about.title"></a>
+        <a target="_blank" class="btn btn-primary btn-lg" href="https://www.xing-events.com/BCPNNIA.html" data-i18n="registration.register"></a>
+        <a target="_blank" class="btn btn-warning btn-lg" href="https://www.papercall.io/cubaconf2017" data-i18n="cfp.send"></a>
+      </p>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container-fluid">
+        <div class="row">
+          <h4 data-i18n="about.title"></h4>
         </div>
-      </div>
-
-      <div class="banner">
-        <h1 data-i18n="conference.name"></h1>
-        <h2 data-i18n="[html]conference.title"></h2>
-        <h3><span data-i18n="conference.city"></span>, <span data-i18n="conference.date"></span></h3>
-        <p class="buttons">
-          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#aboutModal" data-i18n="about.title"></button>
-          <a target="_blank" class="btn btn-warning btn-lg" href="https://www.papercall.io/cubaconf2017" data-i18n="cfp.send"></a>
-        </p>
-      </div>
-
-      <div class="languages btn-group btn-group-sm" role="group" aria-label="...">
-        <a class="btn btn-info" href="./?lng=es">es</a>
-        <a class="btn btn-info" href="./?lng=en">en</a>
+        <div class="row" data-i18n="[html]about.content"></div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="btn-group btn-group-sm" role="group" aria-label="...">
-        <a class="btn btn-default" href="mailto:cubaconf@cubaconf.org">e-mail</a>
-        <a class="btn btn-default" href="https://t.me/cubaconf">telegram</a>
-        <a class="btn btn-default" href="https://www.facebook.com/cubaconf/">facebook</a>
-        <a class="btn btn-default" href="https://twitter.com/cubaconference">twitter</a>
+        <a class="btn btn-primary" href="mailto:cubaconf@cubaconf.org">e-mail</a>
+        <a class="btn btn-primary" href="https://t.me/cubaconf">telegram</a>
+        <a class="btn btn-primary" href="https://www.facebook.com/cubaconf/">facebook</a>
+        <a class="btn btn-primary" href="https://twitter.com/cubaconference">twitter</a>
       </div>
+      <h2 data-i18n="conference.slogan"></h2>
     </footer>
-
-    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalTitle">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="aboutModalTitle" data-i18n="about.title"></h4>
-          </div>
-          <div class="modal-body" data-i18n="[html]about.content"></div>
-        </div>
-      </div>
-    </div>
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

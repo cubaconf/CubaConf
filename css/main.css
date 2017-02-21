@@ -1,58 +1,68 @@
 html, body {
   height: 100%;
-  font-family: robotoregular;
-  font-size: 14px;
-  overflow: hidden;
-}
-
-.main {
   width: 100%;
-  height: 100%;
+  font-family: robotoregular;
+  font-size: 18px;
+  background-color: #81cee8;
   background-image: url('../img/morro-1.png');
   background-size: auto 60%;
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-color: #81cee8;
-  overflow: hidden;
+  background-attachment: fixed;
+}
+
+
+h1, h2, h3, h4, h5 {
+  z-index: 100;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+h1, h2 {
+  font-family: bankolibold;
+  color: #cb1515;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.main {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.banner {
-  flex-flow: row;
-  color: #efefef;
   text-align: center;
 }
 
-.banner > * {
-  margin: 30px;
+.main > * {
+  margin: 20px;
 }
-
-.banner h1 {
-  font-family: bankolibold;
-  font-size: 8.5em;
-  color: #cb1515;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
-}
-
-.banner h2 {
-  font-size: 3em;
-  letter-spacing: .06em;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
-}
-
-.banner h3 {
-  font-size: 2em;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
-}
-
-.banner p {
-  text-shadow: inherit;
-}
-
-.banner p.buttons {
+.main p.buttons {
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -60,7 +70,7 @@ html, body {
   flex-wrap: wrap;
 }
 
-.banner p.buttons > * {
+.main p.buttons > * {
   margin: 5px;
 }
 
@@ -70,9 +80,18 @@ html, body {
   right: 10px;
 }
 
+section {
+  padding: 20px;
+}
+
+.about {
+  background-color: rgba(28, 30, 64, 1);
+  color: white;
+}
+
 footer {
-  position: absolute;
-  bottom: 8px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
   display: flex;
   width: 100%;
   flex-flow: column;
@@ -88,7 +107,7 @@ footer {
 
 @media screen and (max-width: 642px) and (min-width: 531px) {
   body {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .main {
@@ -98,7 +117,7 @@ footer {
 
 @media screen and (max-width: 530px) and (min-width: 361px) {
   body {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .main {
@@ -108,7 +127,7 @@ footer {
 
 @media screen and (max-width: 360px) {
   body {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .main {
