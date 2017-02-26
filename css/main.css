@@ -123,6 +123,18 @@ footer {
   .main {
     background-size: auto 35%;
   }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -132,5 +144,69 @@ footer {
 
   .main {
     background-size: auto 30%;
+  }
+
+  .main > * {
+    margin: 15px;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+
+  .main > .buttons > .btn-lg {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-height: 414px) {
+  body {
+    font-size: 12px;
+  }
+
+  .main > * {
+    margin: 13px;
+  }
+
+  .main > h1 {
+      margin-top: 0px;
+  }
+
+  .main > h3 {
+      margin-top: 0px;
+  }
+
+  .main > .buttons {
+      z-index: 1;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-height: 320px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  .main > .buttons {
+      margin-top: 10px;
+  }
+
+  .main > .buttons > .btn-lg {
+    font-size: 13px;
   }
 }

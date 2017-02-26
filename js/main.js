@@ -7,7 +7,7 @@ $(function() {
     cloud.addClass('cloud');
     cloud.width(getRandom(10, 20) + '%');
     cloud.height('200px');
-    cloud.offset({ top: 10 * getRandom(1, 30), left: left * i });
+    cloud.offset({ top: 10 * getRandom(1, 27), left: left * i });
 
     cloud.appendTo($('.sky'));
   }
