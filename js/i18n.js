@@ -19,7 +19,7 @@ $(function() {
       fallbackLng: 'es',
       backend: {
         // path where resources get loaded from
-        loadPath: 'locales/{{lng}}.json',
+        loadPath: '../locales/{{lng}}.json',
       },
       detection: {
         // order and from where user language should be detected
