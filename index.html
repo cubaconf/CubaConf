@@ -16,6 +16,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/sky.css" rel="stylesheet">
     <link href="css/sea.css" rel="stylesheet">
+    <link href="css/keynotes.css" rel="stylesheet">
   </head>
 
   <body>
@@ -52,6 +53,16 @@
       </div>
     </section>
 
+    <section id="keynotes" class="keynotes">
+      <div class="container-fluid">
+        <div class="row">
+          <h4 data-i18n="keynotes.title"></h4>
+        </div>
+        <div id="keynotesContainer" class="row">
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
       <div class="btn-group btn-group-sm" role="group" aria-label="...">
         <a class="btn btn-primary" href="mailto:cubaconf@cubaconf.org">e-mail</a>
@@ -62,6 +73,22 @@
       <h2 data-i18n="conference.slogan"></h2>
     </footer>
 
+    <script id="keynoteTemplate" type="text/x-handlebars-template">
+      {{#each keynotes}}
+        <div class="col-xs-6 col-sm-4 col-md-3">
+          <div class="thumbnail">
+            <img src="{{picture}}" alt="{{name}}">
+            <div class="caption">
+              <h3>{{name}}</h3>
+              <h5>{{organization}}</h5>
+              <h4>{{title}}</h4>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </script>
+
+    <script src="vendor/handlebars/handlebars.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/i18next/i18next.min.js"></script>
@@ -70,6 +97,7 @@
     <script src="vendor/i18next/i18nextBrowserLanguageDetector.min.js"></script>
 
     <script src="js/i18n.js"></script>
+    <script src="js/keynotes.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

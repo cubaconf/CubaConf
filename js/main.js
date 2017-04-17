@@ -11,8 +11,12 @@ $(function() {
 
     cloud.appendTo($('.sky'));
   }
-});
 
+  var keynoteTemplate = Handlebars.compile($("#keynoteTemplate").html());
+  $('#keynotesContainer').html(keynoteTemplate({
+    keynotes: keynotes
+  }));
+});
 
 function getRandom(min, max) {
   min = Math.ceil(min);
