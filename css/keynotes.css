@@ -1,23 +1,30 @@
-.keynotes h4 {
-  color: rgba(28, 30, 64, 1);
-  text-shadow: none;
+.keynotes {
+  background-color: #81cee8;
 }
 
-.keynotes .thumbnail h3 {
-  color: rgba(28, 30, 64, 1);
+.keynote {
+  text-align: center;
+}
+
+.keynote img {
+  border: 5px solid white;
+  width: 100%;
+}
+
+.keynote h4 {
+  /*color: rgba(28, 30, 64, 1);
+  text-shadow: none;*/
+}
+
+.keynote h3 {
   font-size: 1.5em;
-  text-shadow: none;
 }
 
-.keynotes .thumbnail h4 {
-  color: rgba(28, 30, 64, 1);
+.keynote h4 {
   font-size: 1.2em;
-  text-shadow: none;
 }
 
-.keynotes .thumbnail h5 {
-  color: rgba(28, 30, 64, 0.8);
+.keynote h5 {
   font-size: 1em;
-  text-shadow: none;
   font-style: italic;
 }
