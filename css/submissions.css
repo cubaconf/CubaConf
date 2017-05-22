@@ -1,0 +1,12 @@
+section.submissions {
+  background-color: #fcfcfc;
+  color: rgba(28, 30, 64, 1);
+}
+
+section.submissions h4 {
+  color: #286090;
+}
+
+section.submissions table {
+  font-size: 0.8em;
+}

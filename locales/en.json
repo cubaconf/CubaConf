@@ -17,5 +17,12 @@
   },
   "keynotes": {
     "title": "Keynotes"
+  },
+  "submissions": {
+    "title": "Submissions",
+    "submission": {
+      "title": "Title",
+      "name": "Author"
+    }
   }
 }

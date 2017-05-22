@@ -12,10 +12,20 @@ $(function() {
     cloud.appendTo($('.sky'));
   }
 
-  var keynoteTemplate = Handlebars.compile($("#keynoteTemplate").html());
-  $('#keynotesContainer').html(keynoteTemplate({
-    keynotes: keynotes
-  }));
+  $.getJSON('content/keynotes.json', function(data) {
+    var template = Handlebars.compile($('#keynotesTemplate').html());
+    $('#keynotesContainer').html(template({
+      keynotes: data
+    }));
+  })
+
+  $.getJSON('content/submissions.json', function(data) {
+    var template = Handlebars.compile($('#submissionsTemplate').html());
+    $('#submissionsContainer').html(template({
+      submissions: data
+    }));
+    $('#submissionsContainer [data-toggle="popover"]').popover();
+  })
 });
 
 function getRandom(min, max) {
@@ -23,3 +33,10 @@ function getRandom(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+Handlebars.registerHelper('truncate', function(string) {
+  if (string.length > 500) {
+    return string.substring(0, 500) + '...';
+  }
+  return string;
+});

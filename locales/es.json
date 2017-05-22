@@ -18,5 +18,12 @@
   },
   "keynotes": {
     "title": "Plenarias"
+  },
+  "submissions": {
+    "title": "Propuestas",
+    "submission": {
+      "title": "Título",
+      "name": "Autor"
+    }
   }
 }

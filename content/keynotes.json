@@ -1,4 +1,4 @@
-var keynotes = [{
+[{
   "name": "Lionel Messi",
   "organization": "FC Barcelona",
   "title": "How to be the best",
@@ -18,4 +18,4 @@ var keynotes = [{
   "organization": "Night's Watch",
   "title": "I know nothing",
   "picture": "https://pbs.twimg.com/profile_images/684112242095316992/GM4cuhiW.jpg"
-}];
+}]
