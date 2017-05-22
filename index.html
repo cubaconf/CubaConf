@@ -100,10 +100,6 @@
     <script id="submissionsTemplate" type="text/x-handlebars-template">
       <div class="submissions table-responsive">
         <table class="table table-condensed">
-          <tr>
-            <th data-i18n="submissions.submission.title"></th>
-            <th data-i18n="submissions.submission.name"></th>
-          </tr>
           {{#each submissions}}
             <tr>
               <td>{{title}} <span role="button" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{abstract}}"></span></td>

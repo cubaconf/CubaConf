@@ -25,6 +25,7 @@ $(function() {
       submissions: data
     }));
     $('#submissionsContainer [data-toggle="popover"]').popover();
+    $('#submissionsContainer [data-i18n]').localize();
   })
 });
 
