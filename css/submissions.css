@@ -5,8 +5,23 @@ section.submissions {
 
 section.submissions h4 {
   color: #286090;
+  text-shadow: none;
 }
 
 section.submissions table {
   font-size: 0.8em;
+}
+
+h4.modal-title {
+  font-size: 1em;
+  text-shadow: none;
+  color: #286090;
+}
+
+div.modal-body {
+  font-size: 0.8em;
+}
+
+div.modal-body img {
+  width: 100%;
 }
