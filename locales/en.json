@@ -19,10 +19,13 @@
     "title": "Keynotes"
   },
   "submissions": {
-    "title": "Submissions",
+    "title": "Approved Submissions",
     "submission": {
       "title": "Title",
-      "name": "Author"
+      "author": "Author",
+      "abstract": "Abstract",
+      "organization": "Organization",
+      "location": "Location"
     }
   }
 }

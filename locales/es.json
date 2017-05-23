@@ -20,10 +20,13 @@
     "title": "Plenarias"
   },
   "submissions": {
-    "title": "Propuestas",
+    "title": "Propuestas Aprobadas",
     "submission": {
       "title": "Título",
-      "name": "Autor"
+      "author": "Autor",
+      "abstract": "Resumen",
+      "organization": "Organización",
+      "location": "Localización"
     }
   }
 }

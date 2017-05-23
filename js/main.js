@@ -1,6 +1,7 @@
 $(function() {
   var count = 6;
   var left = $(window).width() / (count + 2);
+  var submissions;
 
   for (var i = 1; i <= count; i++) {
     var cloud = $('<div>');
@@ -20,12 +21,21 @@ $(function() {
   })
 
   $.getJSON('content/submissions.json', function(data) {
+    submissions = data;
+
     var template = Handlebars.compile($('#submissionsTemplate').html());
     $('#submissionsContainer').html(template({
-      submissions: data
+      submissions: submissions
     }));
-    $('#submissionsContainer [data-toggle="popover"]').popover();
-    $('#submissionsContainer [data-i18n]').localize();
+    $('#submissionsContainer button').click(function() {
+      var modalTemplate = Handlebars.compile($('#submissionModalTemplate').html());
+      $('body').append(modalTemplate(submissions[$(this).data('id')]));
+      $("#submissionModal").on('hidden.bs.modal', function () {
+        $(this).remove();
+      });
+      $('#submissionModal [data-i18n]').localize();
+      $('#submissionModal').modal();
+    });
   })
 });
 
@@ -34,10 +44,3 @@ function getRandom(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-Handlebars.registerHelper('truncate', function(string) {
-  if (string.length > 500) {
-    return string.substring(0, 500) + '...';
-  }
-  return string;
-});

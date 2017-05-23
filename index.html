@@ -102,11 +102,45 @@
         <table class="table table-condensed">
           {{#each submissions}}
             <tr>
-              <td>{{title}} <span role="button" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{abstract}}"></span></td>
-              <td>{{name}} <span role="button" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{bio}}"></span></td>
+              <td>{{title}}</td>
+              <td>{{name}}</td>
+              <td>
+                <button type="button" class="btn btn-info btn-xs" data-id="{{@index}}">
+                  <span class="glyphicon glyphicon-info-sign"></span>
+                </button>
+              </td>
             </tr>
           {{/each}}
         </table>
+      </div>
+    </script>
+
+    <script id="submissionModalTemplate" type="text/x-handlebars-template">
+      {{log this}}
+      <div class="modal fade" id="submissionModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">{{title}}</h4>
+            </div>
+            <div class="modal-body">
+              <dl class="dl-horizontal">
+                <dt data-i18n="submissions.submission.abstract"></dt>
+                <dd>{{abstract}}</dd>
+                <dt data-i18n="submissions.submission.author"></dt>
+                <dd>
+                  {{name}}{{#if twitter}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>){{/if}}
+                  <p>{{bio}}</p>
+                </dd>
+                <dt data-i18n="submissions.submission.organization"></dt>
+                <dd>{{organization}}</dd>
+                <dt data-i18n="submissions.submission.location"></dt>
+                <dd>{{location}}</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
       </div>
     </script>
 
