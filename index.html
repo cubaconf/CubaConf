@@ -16,6 +16,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/sky.css" rel="stylesheet">
     <link href="css/sea.css" rel="stylesheet">
+    <link href="css/keynotes.css" rel="stylesheet">
+    <link href="css/submissions.css" rel="stylesheet">
   </head>
 
   <body>
@@ -44,11 +46,31 @@
     </section>
 
     <section id="about" class="about">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <h4 data-i18n="about.title"></h4>
         </div>
         <div class="row" data-i18n="[html]about.content"></div>
+      </div>
+    </section>
+
+    <!-- <section id="keynotes" class="keynotes">
+      <div class="container">
+        <div class="row">
+          <h4 data-i18n="keynotes.title"></h4>
+        </div>
+        <div id="keynotesContainer" class="row">
+        </div>
+      </div>
+    </section> -->
+
+    <section id="submissions" class="submissions">
+      <div class="container">
+        <div class="row">
+          <h4 data-i18n="submissions.title"></h4>
+        </div>
+        <div id="submissionsContainer" class="row">
+        </div>
       </div>
     </section>
 
@@ -62,6 +84,66 @@
       <h2 data-i18n="conference.slogan"></h2>
     </footer>
 
+    <script id="keynotesTemplate" type="text/x-handlebars-template">
+      {{#each keynotes}}
+        <div class="col-xs-6 col-sm-4 col-md-3">
+          <div class="keynote">
+            <img src="{{picture}}" alt="{{name}}" class="img-circle">
+            <h3>{{name}}</h3>
+            <h5>{{organization}}</h5>
+            <h4>{{title}}</h4>
+          </div>
+        </div>
+      {{/each}}
+    </script>
+
+    <script id="submissionsTemplate" type="text/x-handlebars-template">
+      <div class="submissions table-responsive">
+        <table class="table table-condensed">
+          {{#each submissions}}
+            <tr>
+              <td>{{title}}</td>
+              <td>{{name}}</td>
+              <td>
+                <button type="button" class="btn btn-info btn-xs" data-id="{{@index}}">
+                  <span class="glyphicon glyphicon-info-sign"></span>
+                </button>
+              </td>
+            </tr>
+          {{/each}}
+        </table>
+      </div>
+    </script>
+
+    <script id="submissionModalTemplate" type="text/x-handlebars-template">
+      <div class="modal fade" id="submissionModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">{{title}}</h4>
+            </div>
+            <div class="modal-body">
+              <dl class="dl-horizontal">
+                <dt data-i18n="submissions.submission.abstract"></dt>
+                <dd>{{abstract}}</dd>
+                <dt data-i18n="submissions.submission.author"></dt>
+                <dd>
+                  {{name}}{{#if twitter}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>){{/if}}
+                  <p>{{bio}}</p>
+                </dd>
+                <dt data-i18n="submissions.submission.organization"></dt>
+                <dd>{{organization}}</dd>
+                <dt data-i18n="submissions.submission.location"></dt>
+                <dd>{{location}}</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script src="vendor/handlebars/handlebars.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/i18next/i18next.min.js"></script>

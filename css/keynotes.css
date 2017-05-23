@@ -1,0 +1,30 @@
+.keynotes {
+  background-color: #81cee8;
+}
+
+.keynote {
+  text-align: center;
+}
+
+.keynote img {
+  border: 5px solid white;
+  width: 100%;
+}
+
+.keynote h4 {
+  /*color: rgba(28, 30, 64, 1);
+  text-shadow: none;*/
+}
+
+.keynote h3 {
+  font-size: 1.5em;
+}
+
+.keynote h4 {
+  font-size: 1.2em;
+}
+
+.keynote h5 {
+  font-size: 1em;
+  font-style: italic;
+}
