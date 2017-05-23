@@ -22,7 +22,11 @@ $(function() {
 
   $.getJSON('content/submissions.json', function(data) {
     submissions = data;
-
+    $.each(submissions, function(index, submission) {
+      if (submission.location === 'Unknown') {
+        submission.location = null;
+      }
+    });
     var template = Handlebars.compile($('#submissionsTemplate').html());
     $('#submissionsContainer').html(template({
       submissions: submissions
