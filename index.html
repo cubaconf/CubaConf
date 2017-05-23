@@ -129,13 +129,16 @@
                 <dd>{{abstract}}</dd>
                 <dt data-i18n="submissions.submission.author"></dt>
                 <dd>
-                  {{name}}{{#if twitter}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>){{/if}}
+                  {{#if twitter}}
+                    <a href="http://twitter.com/{{twitter}}">{{name}}</a>
+                  {{else}}
+                    {{name}}
+                  {{/if}}
+                  {{#if location}}({{location}}){{/if}}
                   <p>{{bio}}</p>
                 </dd>
                 <dt data-i18n="submissions.submission.organization"></dt>
                 <dd>{{organization}}</dd>
-                <dt data-i18n="submissions.submission.location"></dt>
-                <dd>{{location}}</dd>
               </dl>
             </div>
           </div>

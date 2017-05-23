@@ -5,6 +5,7 @@ section.submissions {
 
 section.submissions h4 {
   color: #286090;
+  text-shadow: none;
 }
 
 section.submissions table {
