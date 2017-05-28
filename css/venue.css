@@ -1,0 +1,14 @@
+section.venue {
+  background-color: #81cee8;
+}
+
+section.venue .map {
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (max-width: 530px) {
+  section.venue .map {
+    height: 300px;
+  }
+}
