@@ -16,6 +16,10 @@
     "title": "¿Qué es CubaConf?",
     "content": "<p><strong>CubaConf</strong>, es una conferencia internacional sobre software libre y tecnologías abiertas que tendrá su segunda edición en La Habana del 7 al 9 de noviembre de 2017. <strong>CubaConf</strong> es un  encuentro de la comunidad internacional de entusiastas del mundo libre de las tecnologías, con un enfoque peer to peer y de desarrollo colectivo. Se busca la participación de personas con diferentes perfiles y orígenes geográficos variados.</p><p>Desde la organización de la conferencia, se apunta hacia la diversidad tanto de temas y proyectos, como de sus participantes, por lo que la participación de las mujeres, grupos minoritarios, en estas actividades es crucial para construir nuevos espacios inclusivos de conocimiento y diálogo en los ámbitos tecnológicos. La idea es conocer las experiencias de las personas y organizaciones que trabajan en y con Software Libre, con viejas tecnologías de hardware y poco ancho de banda, conversar acerca de cómo puede ayudar el Software Libre a países en vías de desarrollo.</p><p>La conferencia se realizará durante tres días:<ul><li>El primer día habrá una variedad de sesiones y presentaciones planificadas</li><li>El segundo día se realizarn actividades en modalidad barcamp/unconference</li><li>En el tercer día habrá tiempo y espacio para trabajar juntos en grupos pequeños en los proyectos propuestos o en cualquier tema de interés.</li></ul></p>"
   },
+  "venue": {
+    "title": "El Lugar",
+    "content": "<a href='http://www.sangeronimo.ohc.cu/' target='_blank'>Colegio Universitario San Gerónimo de La Habana</a>, Habana Vieja"
+  },
   "keynotes": {
     "title": "Plenarias"
   },

@@ -11,12 +11,15 @@
     <title>CubaConf 2017</title>
 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/leaflet/leaflet.css" rel="stylesheet">
 
     <link href="fonts/stylesheet.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/sky.css" rel="stylesheet">
     <link href="css/sea.css" rel="stylesheet">
-    <link href="css/keynotes.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/venue.css" rel="stylesheet">
+    <!-- <link href="css/keynotes.css" rel="stylesheet"> -->
     <link href="css/submissions.css" rel="stylesheet">
   </head>
 
@@ -51,6 +54,18 @@
           <h4 data-i18n="about.title"></h4>
         </div>
         <div class="row" data-i18n="[html]about.content"></div>
+      </div>
+    </section>
+
+    <section id="venue" class="venue">
+      <div class="container">
+        <div class="row">
+          <h4 data-i18n="venue.title"></h4>
+        </div>
+        <div class="row" data-i18n="[html]venue.content"></div>
+        <div class="row">
+          <div id="map" class="map"></div>
+        </div>
       </div>
     </section>
 
@@ -165,8 +180,12 @@
     <script src="vendor/i18next/jquery-i18next.min.js"></script>
     <script src="vendor/i18next/i18nextXHRBackend.min.js"></script>
     <script src="vendor/i18next/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="vendor/leaflet/leaflet.js"></script>
 
     <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/venue.js"></script>
+    <!-- <script src="js/keynotes.js"></script> -->
+    <script src="js/submissions.js"></script>
   </body>
 </html>
