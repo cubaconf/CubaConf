@@ -1,0 +1,82 @@
+{
+  "platinum": [{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  },{
+    "name": "Oficina del Historiador",
+    "image": "img/ohc.png",
+    "url": "http://www.habananuestra.cu/"
+  },{
+    "name": "Boot E.V.",
+    "image": "img/bootev.png",
+    "url": "https://www.bootev.org/"
+  }],
+  "gold": [{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  },{
+    "name": "Oficina del Historiador",
+    "image": "img/ohc.png",
+    "url": "http://www.habananuestra.cu/"
+  },{
+    "name": "Boot E.V.",
+    "image": "img/bootev.png",
+    "url": "https://www.bootev.org/"
+  },{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  }],
+  "silver": [{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  },{
+    "name": "Oficina del Historiador",
+    "image": "img/ohc.png",
+    "url": "http://www.habananuestra.cu/"
+  },{
+    "name": "Boot E.V.",
+    "image": "img/bootev.png",
+    "url": "https://www.bootev.org/"
+  },{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  },{
+    "name": "Oficina del Historiador",
+    "image": "img/ohc.png",
+    "url": "http://www.habananuestra.cu/"
+  },{
+    "name": "Boot E.V.",
+    "image": "img/bootev.png",
+    "url": "https://www.bootev.org/"
+  }],
+  "bronze": [{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  },{
+    "name": "Oficina del Historiador",
+    "image": "img/ohc.png",
+    "url": "http://www.habananuestra.cu/"
+  },{
+    "name": "Boot E.V.",
+    "image": "img/bootev.png",
+    "url": "https://www.bootev.org/"
+  },{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  },{
+    "name": "Oficina del Historiador",
+    "image": "img/ohc.png",
+    "url": "http://www.habananuestra.cu/"
+  },{
+    "name": "Boot E.V.",
+    "image": "img/bootev.png",
+    "url": "https://www.bootev.org/"
+  }]
+}

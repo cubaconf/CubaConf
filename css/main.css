@@ -74,14 +74,50 @@ p {
   margin: 5px;
 }
 
+.nav-buttons {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
 .languages {
   position: absolute;
   top: 8px;
   right: 10px;
 }
 
+.middle-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  text-align: center;
+}
+
 section {
-  padding: 20px;
+  padding: 70px 20px 50px 20px;
+}
+
+section.section-dark {
+  background-color: #286090;
+  color: white;
+}
+
+section.section-dark a {
+  color: white;
+}
+
+section.section-normal {
+  background-color: #81cee8;
+}
+
+section.section-light {
+  background-color: #fcfcfc;
+  color: rgba(28, 30, 64, 1);
+}
+
+section.section-light h4 {
+  color: #286090;
+  text-shadow: none;
 }
 
 footer {

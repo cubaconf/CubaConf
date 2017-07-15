@@ -1,4 +1,5 @@
 {
+  "back": "⬅︎",
   "conference": {
     "name": "CubaConf",
     "title": "La Conferencia Cubana<br />de <strong>Tecnologías Libres</strong>",
@@ -20,11 +21,80 @@
     "title": "El Lugar",
     "content": "<a href='http://www.sangeronimo.ohc.cu/' target='_blank'>Colegio Universitario San Gerónimo de La Habana</a>, Habana Vieja"
   },
+  "sponsors": {
+    "title": "Patrocinadores",
+    "content": "<p>Estamos buscando patrocinadores para apoyar a los participantes procedentes de países más pobres que no pueden pagar los costos de su vuelo y alojamiento.</p><p>Como patrocinador, usted tiene la oportunidad de presentar su producto y/o a usted mismo como un empleador atractivo.</p>",
+    "details": "Ver detalles",
+    "categories": {
+      "platinum": {
+        "title": "Platino ($3000)",
+        "features": [
+          "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
+          "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
+          "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
+          "<li>Su empresa, producto, negocio o comunidad, sera incluido en el listado de Patrocinadores oficiales del CubaConf 2017.</li>",
+          "<li>Como parte de la campaña de invitación y promoción internacional de asistencia al CubaConf 2017, su empresa, producto, negocio o comunidad, sera incluido en las menciones vía redes sociales (twiter, facebook, instagram), anunciando así la relación de patrocinio y su apoyo a todas las comunidades de SWL participantes en la conferencia.</li>",
+          "<li>Su patrocinio incluye la posibilidad de presentar a su empresa, producto, negocio o comunidad con un pequeño stand (mesa y sillas a decorar según su elección).</li>",
+          "<li>Su patrocinio incluye 9 entradas a la conferencia.</li>",
+          "<li>Asientos reservados en primera fila en las conferencias principales.</li>",
+          "<li>Certificado de asistencia (digital) y material POP para las 9 personas de su empresa o comunidad asistentes a la conferencia.</li>",
+          "<li>Inclusión de su representante en las palabras de apertura de la conferencia (3 minutos).</li>",
+          "<li>Espacio de 45 minutos para una mini charla sobre su empresa, producto, negocio o comunidad y su relación con el Software o Hardware Libre.</li>"
+        ]
+      },
+      "gold": {
+        "title": "Oro ($2500)",
+        "features": [
+          "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
+          "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
+          "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
+          "<li>Su empresa, producto, negocio o comunidad, sera incluido en el listado de Patrocinadores oficiales del CubaConf 2017.</li>",
+          "<li>Como parte de la campaña de invitación y promoción internacional de asistencia al CubaConf 2017, su empresa, producto, negocio o comunidad, sera incluido en las menciones vía redes sociales (twiter, facebook, instagram), anunciando así la relación de patrocinio y su apoyo a todas las comunidades de SWL participantes en la conferencia.</li>",
+          "<li>Su patrocinio incluye la posibilidad de presentar a su empresa, producto, negocio o comunidad con un pequeño stand (mesa y sillas a decorar según su elección).</li>",
+          "<li>Su patrocinio incluye 7 entradas a la conferencia.</li>",
+          "<li>Asientos reservados en primera fila en las conferencias principales.</li>",
+          "<li>Certificado de asistencia (digital) y material POP para las 7 personas de su empresa o comunidad asistentes a la conferencia.</li>",
+          "<li>Inclusión de su representante en las palabras de apertura de la conferencia (2 minutos).</li>",
+          "<li>Espacio de 20 minutos para una mini charla sobre su empresa, producto, negocio o comunidad y su relación con el Software o Hardware Libre.</li>"
+        ]
+      },
+      "silver": {
+        "title": "Plata ($2000)",
+        "features": [
+          "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
+          "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
+          "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
+          "<li>Su empresa, producto, negocio o comunidad, sera incluido en el listado de Patrocinadores oficiales del CubaConf 2017.</li>",
+          "<li>Como parte de la campaña de invitación y promoción internacional de asistencia al CubaConf 2017, su empresa, producto, negocio o comunidad, sera incluido en las menciones vía redes sociales (twiter, facebook, instagram), anunciando así la relación de patrocinio y su apoyo a todas las comunidades de SWL participantes en la conferencia.</li>",
+          "<li>Su patrocinio incluye la posibilidad de presentar a su empresa, producto, negocio o comunidad con un pequeño stand (mesa y sillas a decorar según su elección).</li>",
+          "<li>Su patrocinio incluye 5 entradas a la conferencia.</li>",
+          "<li>Asientos reservados en primera fila en las conferencias principales.</li>",
+          "<li>Certificado de asistencia (digital) y material POP para las 5 personas de su empresa o comunidad asistentes a la conferencia.</li>",
+          "<li>Inclusión de su representante en las palabras de apertura de la conferencia (1 minuto).</li>",
+          "<li>Espacio de 15 minutos para una mini charla sobre su empresa, producto, negocio o comunidad y su relación con el Software o Hardware Libre.</li>"
+        ]
+      },
+      "bronze": {
+        "title": "Bronce ($1000)",
+        "features": [
+          "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
+          "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
+          "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
+          "<li>Su empresa, producto, negocio o comunidad, sera incluido en el listado de Patrocinadores oficiales del CubaConf 2017.</li>",
+          "<li>Como parte de la campaña de invitación y promoción internacional de asistencia al CubaConf 2017, su empresa, producto, negocio o comunidad, sera incluido en las menciones vía redes sociales (twiter, facebook, instagram), anunciando así la relación de patrocinio y su apoyo a todas las comunidades de SWL participantes en la conferencia.</li>",
+          "<li>Su patrocinio incluye la posibilidad de presentar a su empresa, producto, negocio o comunidad con un pequeño stand (mesa y sillas a decorar según su elección).</li>",
+          "<li>Su patrocinio incluye 3 entradas a la conferencia.</li>",
+          "<li>Espacio de 10 minutos para una mini charla sobre su empresa, producto, negocio o comunidad y su relación con el Software o Hardware Libre.</li>"
+        ]
+      }
+    }
+  },
   "keynotes": {
     "title": "Plenarias"
   },
   "submissions": {
-    "title": "Propuestas Aprobadas",
+    "title": "Propuestas",
+    "content": "<p></p>",
     "submission": {
       "title": "Título",
       "author": "Autor",
