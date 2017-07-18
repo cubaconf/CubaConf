@@ -15,16 +15,7 @@
 }
 
 @media screen and (max-width: 642px) {
-  .main {
-    padding-bottom: 30px;
-  }
-  
   .wave {
-    position: absolute;
-    background-repeat: repeat-x;
-    width: 100%;
-    height: 20px;
-    top: -20px;
-    background-image: url('../img/wave-1.svg');
+    display: none;
   }
 }
