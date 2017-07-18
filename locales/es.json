@@ -26,9 +26,11 @@
     "content": "<p>Estamos buscando patrocinadores para apoyar a los participantes procedentes de países más pobres que no pueden pagar los costos de su vuelo y alojamiento.</p><p>Como patrocinador, usted tiene la oportunidad de presentar su producto y/o a usted mismo como un empleador atractivo.</p>",
     "details": "Ver detalles",
     "categories": {
+      "title": "Categorías de patrocinio",
       "platinum": {
-        "title": "Platino ($3000)",
+        "title": "Platino",
         "features": [
+          "<li>Precio: $3000+</li>",
           "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
           "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
           "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
@@ -43,8 +45,9 @@
         ]
       },
       "gold": {
-        "title": "Oro ($2500)",
+        "title": "Oro",
         "features": [
+          "<li>Precio: $2500</li>",
           "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
           "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
           "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
@@ -59,8 +62,9 @@
         ]
       },
       "silver": {
-        "title": "Plata ($2000)",
+        "title": "Plata",
         "features": [
+          "<li>Precio: $2000</li>",
           "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
           "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
           "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
@@ -75,8 +79,9 @@
         ]
       },
       "bronze": {
-        "title": "Bronce ($1000)",
+        "title": "Bronce",
         "features": [
+          "<li>Precio: $1000</li>",
           "<li>Logotipo de su empresa, producto, negocio o comunidad en la pagina web del evento.</li>",
           "<li>Mención de su empresa, producto, negocio o comunidad en cada espacio de promoción de la conferencia tales como flayers, banners, inauguración del evento, conferencias, desconferencias, presentaciones oficiales y cierre o clausura del evento.</li>",
           "<li>Publicidad de su empresa, producto, negocio o comunidad en el material POP que se entregará a los participantes, ponentes y demás publico asistente a la conferencia tales como bolsas, material de papelería, documentos físicos y digitales.</li>",
@@ -86,6 +91,9 @@
           "<li>Su patrocinio incluye 3 entradas a la conferencia.</li>",
           "<li>Espacio de 10 minutos para una mini charla sobre su empresa, producto, negocio o comunidad y su relación con el Software o Hardware Libre.</li>"
         ]
+      },
+      "supporter": {
+        "title": "Colaboradores"
       }
     }
   },

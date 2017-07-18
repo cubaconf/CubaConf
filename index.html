@@ -84,10 +84,30 @@
         <div class="row">
           <h4 data-i18n="sponsors.title"></h4>
         </div>
-        <div id="sponsorsContainer" class="row"></div>
+        <!-- <div class="row platinum-sponsors">
+          <h5 data-i18n="sponsors.categories.platinum.title"></h5>
+          <div id="platinumSponsorsContainer" class="row"></div>
+        </div>
+        <div class="row gold-sponsors">
+          <h5 data-i18n="sponsors.categories.gold.title"></h5>
+          <div id="goldSponsorsContainer" class="row"></div>
+        </div>
+        <div class="row silver-sponsors">
+          <h5 data-i18n="sponsors.categories.silver.title"></h5>
+          <div id="silverSponsorsContainer" class="row"></div>
+        </div>
+        <div class="row bronze-sponsors">
+          <h5 data-i18n="sponsors.categories.bronze.title"></h5>
+          <div id="bronzeSponsorsContainer" class="row"></div>
+        </div> -->
         <div class="row" data-i18n="[html]sponsors.content"></div>
         <div class="row">
           <a class="btn btn-info" href="sponsors.html" data-i18n="[html]sponsors.details"></a>
+        </div>
+        <br />
+        <div class="row">
+          <h4 data-i18n="sponsors.categories.supporter.title"></h4>
+          <div id="supporterSponsorsContainer" class="row"></div>
         </div>
       </div>
     </section>
@@ -116,18 +136,7 @@
     </script>
 
     <script id="sponsorsTemplate" type="text/x-handlebars-template">
-      <div class="row platinum-sponsors">
-        {{#each platinum}}<div class="col-xs-12 col-sm-6 col-md-4 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
-      </div>
-      <div class="row gold-sponsors">
-        {{#each gold}}<div class="col-xs-6 col-sm-4 col-md-3 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
-      </div>
-      <div class="row silver-sponsors">
-        {{#each silver}}<div class="col-xs-4 col-sm-3 col-md-2 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
-      </div>
-      <div class="row bronze-sponsors">
-        {{#each bronze}}<div class="col-xs-4 col-sm-3 col-md-2 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
-      </div>
+      {{#each this}}<div class="col-xs-6 col-sm-4 col-md-3 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
     </script>
 
     <script src="vendor/handlebars/handlebars.min.js"></script>

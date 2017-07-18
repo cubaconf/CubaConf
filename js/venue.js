@@ -7,4 +7,6 @@ $(function() {
   }).addTo(map);
 
   L.marker([23.13967, -82.35106]).addTo(map);
+
+  map.scrollWheelZoom.disable();
 });

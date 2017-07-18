@@ -1,21 +1,5 @@
 .sponsors img {
   max-width: 90%;
   margin-bottom: 40px;
-}
-
-.platinum-sponsors img {
-  max-height: 180px;
-}
-
-.gold-sponsors img {
-  max-height: 140px;
-}
-
-.silver-sponsors img {
-  max-height: 120px;
-}
-
-.bronze-sponsors img {
-  max-width: 70%;
-  max-height: 100px;
+  max-height: 150px;
 }

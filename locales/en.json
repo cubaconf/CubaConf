@@ -25,9 +25,11 @@
     "content": "<p>We are looking for sponsors to support participants originating from poorer countries that are not able to pay the costs of their flight and accommodation.</p><p>As a sponsor, you have the opportunity to present your product and/or yourselves as an attractive employer.</p>",
     "details": "View details",
     "categories": {
+      "title": "Sponsorship categories",
       "platinum": {
-        "title": "Platinum ($3000)",
+        "title": "Platinum",
         "features": [
+          "<li>Price: $3000+</li>",
           "<li>Logo of your company, product, business or community on the website of the event.</li>",
           "<li>Mention of company, product, business or community in each space of promotion of the conference such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing of the closing of the event.</li>",
           "<li>Publicity of your company, product, business and community in the POP material that will be delivered to Participants, speakers and other conference attendant related items such as bags, stationery, physical and digital documents.</li>",
@@ -42,8 +44,9 @@
         ]
       },
       "gold": {
-        "title": "Gold ($2500)",
+        "title": "Gold",
         "features": [
+          "<li>Price: $2500</li>",
           "<li>Logo of your company, product, business or community on the website of the event.</li>",
           "<li>Mention of your company, product, business or community in each area of ​​promotion of the conferences such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing or closing of the event.</li>",
           "<li>Advertising of your company, product, business or community in the POP material that will be delivered to the participants, speakers and other audience attending the conference such as scholarships, stationery, physical and digital documents.</li>",
@@ -58,8 +61,9 @@
         ]
       },
       "silver": {
-        "title": "Silver ($2000)",
+        "title": "Silver",
         "features": [
+          "<li>Price: $2000</li>",
           "<li>Logo of your company, product, business or community on the website of the event.</li>",
           "<li>Mention of your company, product, business or community in each area of ​​promotion of the conferences such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing or closing of the event.</li>",
           "<li>Advertising of your company, product, business or community in the POP material that will be delivered to the participants, speakers and other audience attending the conference such as scholarships, stationery, physical and digital documents.</li>",
@@ -74,8 +78,9 @@
         ]
       },
       "bronze": {
-        "title": "Bronze ($1000)",
+        "title": "Bronze",
         "features": [
+          "<li>Price: $1000</li>",
           "<li>Logo of your company, product, business or community on the website of the event.</li>",
           "<li>Mention of your company, product, business or community in each area of ​​promotion of the conferences such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing or closing of the event.</li>",
           "<li>Advertising of your company, product, business or community in the POP material that will be delivered to the participants, speakers and other audience attending the conference such as scholarships, stationery, physical and digital documents.</li>",
@@ -85,6 +90,9 @@
           "<li>Your sponsorship includes 3 tickets to the conference.</li>",
           "<li>10 minutes space for a mini talk about your company, product, business or community and its relation with the Free Software or Hardware.</li>"
         ]
+      },
+      "supporter": {
+        "title": "Supporters"
       }
     }
   },
