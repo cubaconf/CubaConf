@@ -109,5 +109,6 @@
       "organization": "Organization",
       "location": "Location"
     }
-  }
+  },
+  "androidapp": "android app"
 }
