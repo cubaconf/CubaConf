@@ -91,6 +91,10 @@ section.section-dark {
   color: white;
 }
 
+section.section-white {
+  background-color: white;
+}
+
 section.section-dark a {
   color: white;
 }
