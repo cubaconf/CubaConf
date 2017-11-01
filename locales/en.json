@@ -20,6 +20,9 @@
     "title": "The Venue",
     "content": "<a href='http://www.sangeronimo.ohc.cu/' target='_blank'>University of Saint Jerome of Havana</a>, Old Havana"
   },
+  "schedule": {
+    "title": "Schedule"
+  },
   "sponsors": {
     "title": "Sponsors",
     "content": "<p>We are looking for sponsors to support participants originating from poorer countries that are not able to pay the costs of their flight and accommodation.</p><p>As a sponsor, you have the opportunity to present your product and/or yourselves as an attractive employer.</p>",
