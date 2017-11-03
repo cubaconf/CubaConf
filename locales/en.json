@@ -21,7 +21,10 @@
     "content": "<a href='http://www.sangeronimo.ohc.cu/' target='_blank'>University of Saint Jerome of Havana</a>, Old Havana"
   },
   "schedule": {
-    "title": "Schedule"
+    "title": "Schedule",
+    "day_1": "Day 1",
+    "day_2": "Day 2",
+    "day_3": "Day 3"
   },
   "sponsors": {
     "title": "Sponsors",
