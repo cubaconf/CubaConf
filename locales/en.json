@@ -3,7 +3,7 @@
     "name": "CubaConf",
     "title": "<strong>Free Technologies</strong><br />Cuban Conference",
     "city": "Havana",
-    "date": "November 7th-9th, 2017"
+    "date": "November 20th-22th, 2019"
   },
   "registration": {
     "register": "Registration"
@@ -13,11 +13,11 @@
   },
   "about": {
     "title": "What's CubaConf?",
-    "content": "<p><strong>CubaConf</strong>, is an international conference about free software and open technologies that will have its second edition in La Habana from November 7th to 9th, 2017. <strong>CubaConf</strong> is a meeting from the international community of enthusiasts of the free technologie's world, peer to peer focused and collective development. It seeks the participation of people with different profiles and diverse geographical locations.</p><p>From the organization of the conference, it is aimed at the diversity of both topics and projects, as of its participants, so the participation of women, minority groups, in these activities is crucial to build new inclusive spaces of knowledge and dialogue about technology. The main idea is to know people experience and organizations who work with and in free software, with old hardware technologies and little or slow bandwidth, to talk about how free software can help developing countries.</p><p>The conference will be for three days:<ul><li>The first day will be a variety of planned sessions and presentations</li><li>On the second day the activities will be carried out in barcamp/unconference mode</li><li>On the third day will be time and space to work together in small groups on the proposed projects or on any topic of interest.</li></ul></p>"
+    "content": "<p><strong>CubaConf</strong>, is the Cuban conference about free software and open technologies that will have its second edition in La Habana from <strong>November 20th to 22th, 2019</strong>. This is a meeting for the community of enthusiasts of the free technologie's world, peer to peer focused and collective development. It seeks the participation of people with different profiles and diverse geographical locations.</p><p>From the organization of the conference, it is aimed at the diversity of both topics and projects, as of its participants, so the participation of women, minority groups, in these activities is crucial to build new inclusive spaces of knowledge and dialogue about technology. The main idea is to know people experience and organizations who work with and in free software, with old hardware technologies and little or slow bandwidth, to talk about how free software can help developing countries.</p><p>The conference will be for three days:<ul><li>The first day will be a variety of planned sessions and presentations</li><li>On the second day the activities will be carried out in barcamp/unconference mode</li><li>On the third day will be time and space to work together in small groups on the proposed projects or on any topic of interest.</li></ul></p><p>And the central issues to be addressed will be:</p><p><ul><li>How to use Free software in educational institutions is economically favorable.</li><li>Experiences using free technologies in social and community projects.</li><li>New technologies, archival and historical memory.</li><li>Free hardware and microcontrollers.</li><li>Experiences of small companies that use free software to compete in the world market.</li></ul></p>"
   },
   "venue": {
     "title": "The Venue",
-    "content": "<a href='http://www.sangeronimo.ohc.cu/' target='_blank'>University of Saint Jerome of Havana</a>, Old Havana"
+    "content": "<a href='http://www.uh.cu/' target='_blank'>Havana's University</a>, Plaza"
   },
   "keynotes": {
     "title": "Keynotes"
