@@ -8,7 +8,7 @@
     <meta name="keywords" content="cuba, free, open, technologies, source, tecnologia, conference, conferencia, software, hardware">
     <link rel="icon" type="image/png" href="img/flag.png" />
 
-    <title>CubaConf 2017</title>
+    <title>CubaConf 2019</title>
 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/leaflet/leaflet.css" rel="stylesheet">
@@ -17,9 +17,10 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/sky.css" rel="stylesheet">
     <link href="css/sea.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
     <link href="css/venue.css" rel="stylesheet">
-    <link href="css/keynotes.css" rel="stylesheet">
-    <link href="css/sponsors.css" rel="stylesheet">
+    <!-- <link href="css/keynotes.css" rel="stylesheet"> -->
+    <link href="css/submissions.css" rel="stylesheet">
   </head>
 
   <body>
@@ -32,45 +33,33 @@
     </div>
 
     <div class="languages btn-group btn-group-sm" role="group" aria-label="...">
-      <a class="btn btn-info" href="?lng=es">es</a>
-      <a class="btn btn-info" href="?lng=en">en</a>
+      <a class="btn btn-info" href="./?lng=es">es</a>
+      <a class="btn btn-info" href="./?lng=en">en</a>
     </div>
 
     <section id="main" class="main">
       <h1 data-i18n="conference.name"></h1>
       <h3 data-i18n="[html]conference.title"></h3>
       <h4><span data-i18n="conference.city"></span>, <span data-i18n="conference.date"></span></h4>
-      <div class="btn-group btn-group-lg visible-lg visible-md" role="group" aria-label="...">
-        <a href="#about" class="btn btn-info" data-i18n="about.title"></a>
-        <a target="_blank" class="btn btn-primary" href="https://www.xing-events.com/BCPNNIA.html" data-i18n="registration.register"></a>
-        <a class="btn btn-info" href="submissions.html" data-i18n="submissions.title"></a>
-      </div>
-      <div class="btn-group-vertical btn-group-lg visible-sm visible-xs" role="group" aria-label="...">
-        <a href="#about" class="btn btn-info" data-i18n="about.title"></a>
-        <a target="_blank" class="btn btn-primary" href="https://www.xing-events.com/BCPNNIA.html" data-i18n="registration.register"></a>
-        <a class="btn btn-info" href="submissions.html" data-i18n="submissions.title"></a>
-      </div>
+      <p class="buttons">
+        <a href="#about" class="btn btn-info btn-lg" data-i18n="about.title"></a>
+        <!--
+        <a target="_blank" class="btn btn-primary btn-lg" href="https://www.xing-events.com/BCPNNIA.html" data-i18n="registration.register"></a>
+        <a target="_blank" class="btn btn-warning btn-lg" href="https://www.papercall.io/cubaconf2017" data-i18n="cfp.send"></a>
+        -->
+      </p>
     </section>
 
-    <section id="about" class="section-dark about">
+    <section id="about" class="about">
       <div class="container">
         <div class="row">
           <h4 data-i18n="about.title"></h4>
         </div>
         <div class="row" data-i18n="[html]about.content"></div>
-        <div class="row">
-          <h4 data-i18n="schedule.title"></h4>
-        </div>
-        <div class="row">
-          <div class="btn-group btn-group-lg" role="group" aria-label="...">
-            <a target="_blank" class="btn btn-info" href="files/schedule_1.pdf" data-i18n="schedule.day_1"></a>
-            <a target="_blank" class="btn btn-info" href="files/schedule_2.pdf" data-i18n="schedule.day_2"></a>
-          </div>
-        </div>
       </div>
     </section>
 
-    <section id="venue" class="section-normal venue">
+    <section id="venue" class="venue">
       <div class="container">
         <div class="row">
           <h4 data-i18n="venue.title"></h4>
@@ -82,7 +71,7 @@
       </div>
     </section>
 
-    <!-- <section id="keynotes" class="section-normal keynotes">
+    <!-- <section id="keynotes" class="keynotes">
       <div class="container">
         <div class="row">
           <h4 data-i18n="keynotes.title"></h4>
@@ -91,50 +80,25 @@
         </div>
       </div>
     </section> -->
-
-    <section id="sponsors" class="section-light section-white sponsors">
+<!--
+    <section id="submissions" class="submissions">
       <div class="container">
         <div class="row">
-          <h4 data-i18n="sponsors.title"></h4>
+          <h4 data-i18n="submissions.title"></h4>
         </div>
-        <!-- <div class="row platinum-sponsors">
-          <h5 data-i18n="sponsors.categories.platinum.title"></h5>
-          <div id="platinumSponsorsContainer" class="row"></div>
-        </div>
-        <div class="row gold-sponsors">
-          <h5 data-i18n="sponsors.categories.gold.title"></h5>
-          <div id="goldSponsorsContainer" class="row"></div>
-        </div>
-        <div class="row silver-sponsors">
-          <h5 data-i18n="sponsors.categories.silver.title"></h5>
-          <div id="silverSponsorsContainer" class="row"></div>
-        </div>
-        <div class="row bronze-sponsors">
-          <h5 data-i18n="sponsors.categories.bronze.title"></h5>
-          <div id="bronzeSponsorsContainer" class="row"></div>
-        </div> -->
-        <div class="row" data-i18n="[html]sponsors.content"></div>
-        <div class="row">
-          <a class="btn btn-info" href="sponsors.html" data-i18n="[html]sponsors.details"></a>
-        </div>
-        <br />
-        <div class="row">
-          <h4 data-i18n="sponsors.categories.supporter.title"></h4>
-          <div id="supporterSponsorsContainer" class="row"></div>
+        <div id="submissionsContainer" class="row">
         </div>
       </div>
     </section>
-
+-->
     <footer class="footer">
       <div class="btn-group btn-group-sm" role="group" aria-label="...">
         <a class="btn btn-primary" href="mailto:cubaconf@cubaconf.org">e-mail</a>
         <a class="btn btn-primary" href="https://t.me/cubaconf">telegram</a>
         <a class="btn btn-primary" href="https://www.facebook.com/cubaconf/">facebook</a>
         <a class="btn btn-primary" href="https://twitter.com/cubaconference">twitter</a>
-        <a class="btn btn-primary" href="https://github.com/cubaconf/CubaConf-Android/releases/download/1.0/CubaConf.apk.zip"><span data-i18n="androidapp"></span></a>
       </div>
       <h2 data-i18n="conference.slogan"></h2>
-      <a href="https://play.google.com/store/apps/details?id=cu.cubaconf"><img style="width:200px;" src="/img/google-play-badge.png" /></a>
     </footer>
 
     <script id="keynotesTemplate" type="text/x-handlebars-template">
@@ -150,8 +114,65 @@
       {{/each}}
     </script>
 
-    <script id="sponsorsTemplate" type="text/x-handlebars-template">
-      {{#each this}}<div class="col-xs-6 col-sm-4 col-md-3 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
+    <script id="submissionsTemplate" type="text/x-handlebars-template">
+      <div class="submissions table-responsive">
+        <table class="table table-condensed">
+          {{#each submissions}}
+            <tr>
+              <td>{{title}}</td>
+              <td>{{name}}</td>
+              <td>
+                <button type="button" class="btn btn-info btn-xs" data-id="{{@index}}">
+                  <span class="glyphicon glyphicon-info-sign"></span>
+                </button>
+              </td>
+            </tr>
+          {{/each}}
+        </table>
+      </div>
+    </script>
+
+    <script id="submissionModalTemplate" type="text/x-handlebars-template">
+      <div class="modal fade" id="submissionModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">{{title}}</h4>
+            </div>
+            <div class="modal-body">
+              <p>{{abstract}}</p>
+              <hr />
+              <dl class="dl-horizontal">
+                <dt>
+                  {{#if avatar}}
+                    <p>
+                      <img src="{{avatar}}"/>
+                    </p>
+                  {{/if}}
+                </dt>
+                <dd>
+                  {{#if url}}
+                    <a href="{{url}}" target="_blank">{{name}}</a>
+                  {{else}}
+                    {{name}}
+                  {{/if}}
+                  {{#if location}}({{location}}){{/if}}
+                  {{#if bio}}
+                    <p>{{bio}}</p>
+                  {{/if}}
+                </dd>
+                <dt data-i18n="submissions.submission.organization"></dt>
+                <dd>{{organization}}</dd>
+                {{#if twitter}}
+                  <dt>Twitter</dt>
+                  <dd><a href="http://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a></dd>
+                {{/if}}
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
     </script>
 
     <script src="vendor/handlebars/handlebars.min.js"></script>
@@ -167,6 +188,6 @@
     <script src="js/main.js"></script>
     <script src="js/venue.js"></script>
     <!-- <script src="js/keynotes.js"></script> -->
-    <script src="js/sponsors.js"></script>
+    <script src="js/submissions.js"></script>
   </body>
 </html>
