@@ -1,10 +1,9 @@
 {
-  "back": "⬅︎",
   "conference": {
     "name": "CubaConf",
     "title": "<strong>Free Technologies</strong><br />Cuban Conference",
     "city": "Havana",
-    "date": "November 7th-9th, 2017"
+    "date": "November 20th-22th, 2019"
   },
   "registration": {
     "register": "Registration"
@@ -14,100 +13,17 @@
   },
   "about": {
     "title": "What's CubaConf?",
-    "content": "<p><strong>CubaConf</strong>, is an international conference about free software and open technologies that will have its second edition in La Habana from November 7th to 9th, 2017. <strong>CubaConf</strong> is a meeting from the international community of enthusiasts of the free technologie's world, peer to peer focused and collective development. It seeks the participation of people with different profiles and diverse geographical locations.</p><p>From the organization of the conference, it is aimed at the diversity of both topics and projects, as of its participants, so the participation of women, minority groups, in these activities is crucial to build new inclusive spaces of knowledge and dialogue about technology. The main idea is to know people experience and organizations who work with and in free software, with old hardware technologies and little or slow bandwidth, to talk about how free software can help developing countries.</p><p>The conference will be for three days:<ul><li>The first day will be a variety of planned sessions and presentations</li><li>On the second day the activities will be carried out in barcamp/unconference mode</li><li>On the third day will be time and space to work together in small groups on the proposed projects or on any topic of interest.</li></ul></p>"
+    "content": "<p><strong>CubaConf</strong>, is the Cuban conference about free software and open technologies that will have its second edition in La Habana from <strong>November 20th to 22th, 2019</strong>. This is a meeting for the community of enthusiasts of the free technologie's world, peer to peer focused and collective development. It seeks the participation of people with different profiles and diverse geographical locations.</p><p>From the organization of the conference, it is aimed at the diversity of both topics and projects, as of its participants, so the participation of women, minority groups, in these activities is crucial to build new inclusive spaces of knowledge and dialogue about technology. The main idea is to know people experience and organizations who work with and in free software, with old hardware technologies and little or slow bandwidth, to talk about how free software can help developing countries.</p><p>The conference will be for three days:<ul><li>The first day will be a variety of planned sessions and presentations</li><li>On the second day the activities will be carried out in barcamp/unconference mode</li><li>On the third day will be time and space to work together in small groups on the proposed projects or on any topic of interest.</li></ul></p><p>And the central issues to be addressed will be:</p><p><ul><li>How to use Free software in educational institutions is economically favorable.</li><li>Experiences using free technologies in social and community projects.</li><li>New technologies, archival and historical memory.</li><li>Free hardware and microcontrollers.</li><li>Experiences of small companies that use free software to compete in the world market.</li></ul></p>"
   },
   "venue": {
     "title": "The Venue",
-    "content": "<a href='http://www.sangeronimo.ohc.cu/' target='_blank'>University of Saint Jerome of Havana</a>, Old Havana"
-  },
-  "schedule": {
-    "title": "Schedule",
-    "day_1": "Day 1",
-    "day_2": "Day 2",
-    "day_3": "Day 3"
-  },
-  "sponsors": {
-    "title": "Sponsors",
-    "content": "<p>We are looking for sponsors to support participants originating from poorer countries that are not able to pay the costs of their flight and accommodation.</p><p>As a sponsor, you have the opportunity to present your product and/or yourselves as an attractive employer.</p>",
-    "details": "View details",
-    "categories": {
-      "title": "Sponsorship categories",
-      "platinum": {
-        "title": "Platinum",
-        "features": [
-          "<li>Price: $3000+</li>",
-          "<li>Logo of your company, product, business or community on the website of the event.</li>",
-          "<li>Mention of company, product, business or community in each space of promotion of the conference such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing of the closing of the event.</li>",
-          "<li>Publicity of your company, product, business and community in the POP material that will be delivered to Participants, speakers and other conference attendant related items such as bags, stationery, physical and digital documents.</li>",
-          "<li>Your company, product, business or community, will be included in the list of Officials Sponsors of Cubaconf 2017.</li>",
-          "<li>As part of the campaign of international invitation and promotion of assistance to Cubaconf 2017, your company, product, business or community, will be included in the mentions via social networks (Twiter, Facebook, Instagram), thus announcing the sponsorship relationship and its support to All SWL communities participating in the conference.</li>",
-          "<li>Your sponsorship includes the possibility of presenting your company, product, business or community with a small stand (table and chairs to decorate according to your choice).</li>",
-          "<li>Your sponsorship includes 9 conference tickets.</li>",
-          "<li>Seats reserved in the first row in the main conferences.</li>",
-          "<li>Certificate of assistance (digital) and POP material for the 9 people of your company community attendees to the conference.</li>",
-          "<li>Inclusion of its representative in the opening words of the conference (3 minutes).</li>",
-          "<li>45 minutes space for a mini talk about the company, product, business or community and its relation with the Free Software or Hardware.</li>"
-        ]
-      },
-      "gold": {
-        "title": "Gold",
-        "features": [
-          "<li>Price: $2500</li>",
-          "<li>Logo of your company, product, business or community on the website of the event.</li>",
-          "<li>Mention of your company, product, business or community in each area of ​​promotion of the conferences such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing or closing of the event.</li>",
-          "<li>Advertising of your company, product, business or community in the POP material that will be delivered to the participants, speakers and other audience attending the conference such as scholarships, stationery, physical and digital documents.</li>",
-          "<li>Your company, product, business or community, will be included in the list of Officials Sponsors of Cubaconf 2017.</li>",
-          "<li>As part of the campaign of international invitation and promotion of assistance to Cubaconf 2017, your company, product, business or community, will be included in the mentions via social networks (Twiter, Facebook, Instagram), thus announcing the sponsorship relationship and its support to all Free Software communities participating in the conference.</li>",
-          "<li>Your sponsorship includes the possibility of presenting to your company, product, business or community with a small stand (table and chairs to decorate according to your choice).</li>",
-          "<li>Your sponsorship includes 7 conference tickets.</li>",
-          "<li>Seats reserved in the first row in the main conferences.</li>",
-          "<li>Certificate of assistance (digital) and POP material for the 7 people of your company or community attendees to the conference.</li>",
-          "<li>Inclusion of its representative in the opening words of the conference (2 minutes).</li>",
-          "<li>20 minutes space for a mini talk about your company, product, business or community and its relation with the Free Software or Hardware.</li>"
-        ]
-      },
-      "silver": {
-        "title": "Silver",
-        "features": [
-          "<li>Price: $2000</li>",
-          "<li>Logo of your company, product, business or community on the website of the event.</li>",
-          "<li>Mention of your company, product, business or community in each area of ​​promotion of the conferences such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing or closing of the event.</li>",
-          "<li>Advertising of your company, product, business or community in the POP material that will be delivered to the participants, speakers and other audience attending the conference such as scholarships, stationery, physical and digital documents.</li>",
-          "<li>Your company, product, business or community, will be included in the list of Officials Sponsors of Cubaconf 2017.</li>",
-          "<li>As part of the campaign of international invitation and promotion of assistance to Cubaconf 2017, your company, product, business or community, will be included in the mentions via social networks (Twiter, Facebook, Instagram), thus announcing the sponsorship relationship and its support to all Free Software communities participating in the conference.</li>",
-          "<li>Your sponsorship includes the possibility of presenting to your company, product, business or community With a small stand (table and chairs to decorate according to your choice).</li>",
-          "<li>Your sponsorship includes 5 conference tickets.</li>",
-          "<li>Seats reserved in the first row in the main conferences.</li>",
-          "<li>Certificate of attendance (digital) and POP material for the 5 people of your company or community attendees to the conference.</li>",
-          "<li>Inclusion of its representative in the opening words of the conference (1 minute).</li>",
-          "<li>15 minutes space for a mini talk about your company, product, business or community And its relation with the Free Software or Hardware.</li>"
-        ]
-      },
-      "bronze": {
-        "title": "Bronze",
-        "features": [
-          "<li>Price: $1000</li>",
-          "<li>Logo of your company, product, business or community on the website of the event.</li>",
-          "<li>Mention of your company, product, business or community in each area of ​​promotion of the conferences such as flayers, banners, opening of the event, conferences, misconduct, official presentations and closing or closing of the event.</li>",
-          "<li>Advertising of your company, product, business or community in the POP material that will be delivered to the participants, speakers and other audience attending the conference such as scholarships, stationery, physical and digital documents.</li>",
-          "<li>Your company, product, business or community, will be included in the list of Officials Sponsors of Cubaconf 2017.</li>",
-          "<li>As part of the campaign of international invitation and promotion of assistance to Cubaconf 2017, your company, product, business or community, will be included in the mentions via social networks (Twiter, Facebook, Instagram), thus announcing the sponsorship relationship and its support to all Free Software communities participating in the conference.</li>",
-          "<li>Your sponsorship includes the possibility of presenting to your company, product, business or community with a small stand (table and chairs to decorate according to your choice).</li>",
-          "<li>Your sponsorship includes 3 tickets to the conference.</li>",
-          "<li>10 minutes space for a mini talk about your company, product, business or community and its relation with the Free Software or Hardware.</li>"
-        ]
-      },
-      "supporter": {
-        "title": "Supporters"
-      }
-    }
+    "content": "<a href='http://www.uh.cu/' target='_blank'>Havana's University</a>, Plaza"
   },
   "keynotes": {
     "title": "Keynotes"
   },
   "submissions": {
-    "title": "Submissions",
-    "content": "<p></p>",
+    "title": "Approved Submissions",
     "submission": {
       "title": "Title",
       "author": "Author",
@@ -115,6 +31,5 @@
       "organization": "Organization",
       "location": "Location"
     }
-  },
-  "androidapp": "android app"
+  }
 }
