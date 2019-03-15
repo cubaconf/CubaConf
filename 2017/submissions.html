@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free Technologies Cuban Conference">
+    <meta name="keywords" content="cuba, free, open, technologies, source, tecnologia, conference, conferencia, software, hardware">
+    <link rel="icon" type="image/png" href="img/flag.png" />
+
+    <title>CubaConf 2017 - Submissions</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/submissions.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="languages btn-group btn-group-sm" role="group" aria-label="...">
+      <a class="btn btn-info" href="?lng=es">es</a>
+      <a class="btn btn-info" href="?lng=en">en</a>
+    </div>
+
+    <div class="nav-buttons btn-group btn-group-sm" role="group" aria-label="...">
+      <a class="btn btn-info" href="/" data-i18n="back"></a>
+    </div>
+
+    <section id="submissions" class="submissions section-light">
+      <div class="container">
+        <div class="row">
+          <h4 data-i18n="submissions.title"></h4>
+        </div>
+        <div class="row" data-i18n="[html]submissions.content"></div>
+        <div id="submissionsContainer" class="row">
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="btn-group btn-group-sm" role="group" aria-label="...">
+        <a class="btn btn-primary" href="mailto:cubaconf@cubaconf.org">e-mail</a>
+        <a class="btn btn-primary" href="https://t.me/cubaconf">telegram</a>
+        <a class="btn btn-primary" href="https://www.facebook.com/cubaconf/">facebook</a>
+        <a class="btn btn-primary" href="https://twitter.com/cubaconference">twitter</a>
+      </div>
+      <h2 data-i18n="conference.slogan"></h2>
+    </footer>
+
+    <script id="submissionsTemplate" type="text/x-handlebars-template">
+      <div class="submissions table-responsive">
+        <table class="table table-condensed">
+          {{#each submissions}}
+            <tr>
+              <td>{{title}}</td>
+              <td>{{name}}</td>
+              <td>{{location}}</td>
+              <td>
+                <button type="button" class="btn btn-info btn-xs" data-id="{{@index}}">
+                  <span class="glyphicon glyphicon-info-sign"></span>
+                </button>
+              </td>
+            </tr>
+          {{/each}}
+        </table>
+      </div>
+    </script>
+
+    <script id="submissionModalTemplate" type="text/x-handlebars-template">
+      <div class="modal fade" id="submissionModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">{{title}}</h4>
+            </div>
+            <div class="modal-body">
+              <p>{{abstract}}</p>
+              <hr />
+              <dl class="dl-horizontal">
+                <dt>
+                  {{#if avatar}}
+                    <p>
+                      <img src="{{avatar}}"/>
+                    </p>
+                  {{/if}}
+                </dt>
+                <dd>
+                  {{#if url}}
+                    <a href="{{url}}" target="_blank">{{name}}</a>
+                  {{else}}
+                    {{name}}
+                  {{/if}}
+                  {{#if location}}({{location}}){{/if}}
+                  {{#if bio}}
+                    <p>{{bio}}</p>
+                  {{/if}}
+                </dd>
+                <dt data-i18n="submissions.submission.organization"></dt>
+                <dd>{{organization}}</dd>
+                {{#if twitter}}
+                  <dt>Twitter</dt>
+                  <dd><a href="http://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a></dd>
+                {{/if}}
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script src="vendor/handlebars/handlebars.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/i18next/i18next.min.js"></script>
+    <script src="vendor/i18next/jquery-i18next.min.js"></script>
+    <script src="vendor/i18next/i18nextXHRBackend.min.js"></script>
+    <script src="vendor/i18next/i18nextBrowserLanguageDetector.min.js"></script>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/submissions.js"></script>
+  </body>
+</html>

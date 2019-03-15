@@ -1,0 +1,27 @@
+{
+  "platinum": [],
+  "gold": [],
+  "silver": [],
+  "bronze": [],
+  "supporter": [{
+    "name": "Unión de Informáticos de Cuba",
+    "image": "img/union-de-informaticos-de-cuba-logotipo.jpg",
+    "url": "http://uniondeinformaticos.cu"
+  },{
+    "name": "Colegio Universitario San Gerónimo de La Habana",
+    "image": "img/sangeronimo.png",
+    "url": "http://www.sangeronimo.ohc.cu/"
+  },{
+    "name": "Oficina del Historiador de La Habana",
+    "image": "img/ohc.png",
+    "url": "http://www.habananuestra.cu/"
+  },{
+    "name": "Ciego Montero. Los Portales S.A.",
+    "image": "img/CiegoMontero.jpg",
+    "url": "http://www.losportales.cu/"
+  },{
+    "name": "Galera Taller Gorría",
+    "image": "img/gtg.png",
+    "url": "http://galeriatallergorria.com/"
+  }]
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free Technologies Cuban Conference">
+    <meta name="keywords" content="cuba, free, open, technologies, source, tecnologia, conference, conferencia, software, hardware">
+    <link rel="icon" type="image/png" href="img/flag.png" />
+
+    <title>CubaConf 2017 - Sponsors</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sponsors.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="languages btn-group btn-group-sm" role="group" aria-label="...">
+      <a class="btn btn-info" href="?lng=es">es</a>
+      <a class="btn btn-info" href="?lng=en">en</a>
+    </div>
+
+    <div class="nav-buttons btn-group btn-group-sm" role="group" aria-label="...">
+      <a class="btn btn-info" href="/" data-i18n="back"></a>
+    </div>
+
+    <section id="sponsors" class="section-dark sponsors">
+      <div class="container">
+        <div class="row">
+          <h4 data-i18n="sponsors.categories.title"></h4>
+        </div>
+        <div class="row">
+          <h5 data-i18n="sponsors.categories.platinum.title"></h5>
+          <ul data-i18n="[html]sponsors.categories.platinum.features"></ul>
+        </div>
+        <div class="row">
+          <h5 data-i18n="sponsors.categories.gold.title"></h5>
+          <ul data-i18n="[html]sponsors.categories.gold.features"></ul>
+        </div>
+        <div class="row">
+          <h5 data-i18n="sponsors.categories.silver.title"></h5>
+          <ul data-i18n="[html]sponsors.categories.silver.features"></ul>
+        </div>
+        <div class="row">
+          <h5 data-i18n="sponsors.categories.bronze.title"></h5>
+          <ul data-i18n="[html]sponsors.categories.bronze.features"></ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="btn-group btn-group-sm" role="group" aria-label="...">
+        <a class="btn btn-primary" href="mailto:cubaconf@cubaconf.org">e-mail</a>
+        <a class="btn btn-primary" href="https://t.me/cubaconf">telegram</a>
+        <a class="btn btn-primary" href="https://www.facebook.com/cubaconf/">facebook</a>
+        <a class="btn btn-primary" href="https://twitter.com/cubaconference">twitter</a>
+      </div>
+      <h2 data-i18n="conference.slogan"></h2>
+    </footer>
+
+    <script id="sponsorsTemplate" type="text/x-handlebars-template">
+      <div class="row platinum-sponsors">
+        {{#each platinum}}<div class="col-xs-12 col-sm-6 col-md-4 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
+      </div>
+      <div class="row gold-sponsors">
+        {{#each gold}}<div class="col-xs-6 col-sm-4 col-md-3 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
+      </div>
+      <div class="row silver-sponsors">
+        {{#each silver}}<div class="col-xs-4 col-sm-3 col-md-2 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
+      </div>
+      <div class="row bronze-sponsors">
+        {{#each bronze}}<div class="col-xs-4 col-sm-3 col-md-2 middle-center"><a href="{{url}}"><img src="{{image}}" /></a></div>{{/each}}
+      </div>
+    </script>
+
+    <script src="vendor/handlebars/handlebars.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/i18next/i18next.min.js"></script>
+    <script src="vendor/i18next/jquery-i18next.min.js"></script>
+    <script src="vendor/i18next/i18nextXHRBackend.min.js"></script>
+    <script src="vendor/i18next/i18nextBrowserLanguageDetector.min.js"></script>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/sponsors.js"></script>
+  </body>
+</html>
